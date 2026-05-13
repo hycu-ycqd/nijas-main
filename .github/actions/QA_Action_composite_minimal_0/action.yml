@@ -1,0 +1,8 @@
+name: 'QA_Action_composite_minimal_0'
+description: 'Minimal composite action with no inputs or outputs'
+runs:
+  using: composite
+  steps:
+    - id: run
+      run: echo 'QA composite minimal action'
+      shell: bash
