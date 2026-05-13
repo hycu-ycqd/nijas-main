@@ -1,0 +1,5 @@
+# QA branch override — feature: auth
+app:
+  name: QA_App
+  branch: "QA_branch_feature_auth"
+  note: "feature: auth"
