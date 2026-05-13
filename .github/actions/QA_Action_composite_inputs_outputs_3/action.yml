@@ -1,0 +1,23 @@
+name: 'QA_Action_composite_inputs_outputs_3'
+description: 'Composite action with both inputs and outputs'
+inputs:
+  name:
+    description: 'Name to greet'
+    required: true
+  language:
+    description: 'Language code'
+    required: false
+    default: 'en'
+outputs:
+  greeting:
+    description: 'Generated greeting'
+    value: "Hello ${{ inputs.name }}"
+  status:
+    description: 'Action status'
+    value: "ok"
+runs:
+  using: composite
+  steps:
+    - id: run
+      run: echo 'Hello ${{ inputs.name }}'
+      shell: bash
