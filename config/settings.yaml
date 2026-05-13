@@ -1,0 +1,22 @@
+# QA application configuration
+app:
+  name: QA_App
+  version: "1.0.0"
+  debug: false
+  log_level: INFO
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  timeout: 30
+
+database:
+  host: localhost
+  port: 5432
+  name: qa_db
+  pool_size: 5
+
+features:
+  enable_cache: true
+  enable_metrics: true
+  enable_tracing: false
