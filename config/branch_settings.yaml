@@ -1,0 +1,5 @@
+# QA branch override — release: v2
+app:
+  name: QA_App
+  branch: "QA_branch_release_v2"
+  note: "release: v2"
