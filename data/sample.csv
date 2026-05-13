@@ -1,0 +1,6 @@
+id,name,role,active,created_at
+1,Alice,admin,true,2024-01-01
+2,Bob,viewer,true,2024-01-02
+3,Charlie,editor,false,2024-01-03
+4,Diana,admin,true,2024-01-04
+5,Eve,viewer,true,2024-01-05
