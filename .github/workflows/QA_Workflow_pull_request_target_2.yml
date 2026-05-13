@@ -1,0 +1,9 @@
+name: QA_Workflow_pull_request_target_2
+on:
+  pull_request_target:
+jobs:
+  qa-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: QA Step
+        run: echo QA-Workflow original step
