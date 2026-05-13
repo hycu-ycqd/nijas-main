@@ -1,0 +1,12 @@
+name: 'QA_Action_composite_env_4'
+description: 'Composite action with environment variables'
+inputs:
+  api_key:
+    description: 'API key to use'
+    required: true
+runs:
+  using: composite
+  steps:
+    - id: run
+      run: echo 'Using API key'
+      shell: bash
