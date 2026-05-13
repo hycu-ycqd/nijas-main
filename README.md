@@ -1,2 +1,0 @@
-# nijas-main
-nijas-main
