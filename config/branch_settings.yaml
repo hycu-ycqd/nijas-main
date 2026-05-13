@@ -1,0 +1,5 @@
+# QA branch override — bugfix: cache
+app:
+  name: QA_App
+  branch: "QA_branch_bugfix_cache"
+  note: "bugfix: cache"
