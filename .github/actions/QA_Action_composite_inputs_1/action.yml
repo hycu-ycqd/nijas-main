@@ -1,0 +1,16 @@
+name: 'QA_Action_composite_inputs_1'
+description: 'Composite action with required and optional inputs'
+inputs:
+  environment:
+    description: 'Target environment'
+    required: true
+  debug:
+    description: 'Enable debug mode'
+    required: false
+    default: 'false'
+runs:
+  using: composite
+  steps:
+    - id: run
+      run: echo 'Running in ${{ inputs.environment }}'
+      shell: bash
