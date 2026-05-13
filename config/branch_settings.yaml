@@ -1,0 +1,5 @@
+# QA branch override — hotfix: security
+app:
+  name: QA_App
+  branch: "QA_branch_hotfix_security"
+  note: "hotfix: security"
