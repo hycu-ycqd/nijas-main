@@ -1,0 +1,5 @@
+# QA branch override — feature: api
+app:
+  name: QA_App
+  branch: "QA_branch_feature_api"
+  note: "feature: api"
