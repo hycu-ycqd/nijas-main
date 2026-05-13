@@ -1,0 +1,15 @@
+name: 'QA_Action_composite_outputs_2'
+description: 'Composite action with outputs only'
+outputs:
+  result:
+    description: 'The result of the action'
+    value: "success"
+  timestamp:
+    description: 'Execution timestamp'
+    value: "${{ steps.run.outputs.ts }}"
+runs:
+  using: composite
+  steps:
+    - id: run
+      run: echo 'ts=2026-01-01' >> $GITHUB_OUTPUT
+      shell: bash
