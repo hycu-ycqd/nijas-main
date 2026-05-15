@@ -1,0 +1,115 @@
+Mailboxes which are failed to similar issue:
+nilo.casimiro@dirac.com
+rickard.asen@dirac.com
+
+
+Before release of 2.9.0 build:
+
+TaskUuID: 4be96731-c50b-4bfb-914f-0d1bfb6c5fd4
+Backup Entity UuID: 035f231b-3a60-413d-8a47-6e347d465e60
+Company: Dirac Research AB (c8d1bf75-ff22-4f71-88d0-e820705d5aa7)
+Host: protege-6cf53779-f518-428-gmsi-manager.r-cloud.hycu.com
+Instance: rickard.asen@dirac.com
+Module: Microsoft M365 Exchange Online
+Status: Failed
+Policy: m365-exchange (RPO In Minutes: 1440.0)
+Execution Time: 04:03:01.722 (Start Time: April 8, 2026 at 4:55:32 PM GMT+5) (Finish Time: April 8, 2026 at 8:58:34 PM GMT+5)
+Total Items: 0 (Done: Not Applicable) (Failed: Not Applicable)
+Details:
+Status: FAILED
+Total items: 0
+Backup size on source: 443588931
+Backup size on target: 93730069
+Exit Message:
+FAILED: SaaS backup failed with error: Error during backup process, saas: rickard.asen@dirac.com, saasSource: m365-exchange, error: Error code: 500 Message: Exception occured while bulk write to database. Exception: database or disk is full
+database or disk is full
+
+
+TaskUuID: 36d319bd-a2e9-4f7a-80dc-40f816e54377
+Backup Entity UuID: aab88413-399b-44f7-a86a-01196fa23eea
+Company: Dirac Research AB (c8d1bf75-ff22-4f71-88d0-e820705d5aa7)
+Host: protege-6cf53779-f518-428-gmsi-manager.r-cloud.hycu.com
+Instance: nilo.casimiro@dirac.com
+Module: Microsoft M365 Exchange Online
+Status: Failed
+Policy: m365-exchange (RPO In Minutes: 1440.0)
+Execution Time: 00:13:32.804 (Start Time: April 8, 2026 at 3:30:32 PM GMT+5) (Finish Time: April 8, 2026 at 3:44:04 PM GMT+5)
+Total Items: 0 (Done: Not Applicable) (Failed: Not Applicable)
+Details:
+Status: FAILED
+Total items: 0
+Backup size on source: 32553541
+Backup size on target: 10597472
+Exit Message:
+FAILED: SaaS backup failed with error: Error during backup process, saas: nilo.casimiro@dirac.com, saasSource: m365-exchange, error: Error code: 500 Message: Exception occured while bulk write to database. Exception: database or disk is full
+database or disk is full
+
+=================================
+
+
+AFter release of 2.9.0 build:
+
+TaskUuID: 7ae51c82-bd9c-4c98-ace4-2eabd856617f
+Backup Entity UuID: aab88413-399b-44f7-a86a-01196fa23eea
+Company: Dirac Research AB (c8d1bf75-ff22-4f71-88d0-e820705d5aa7)
+Host: protege-6cf53779-f518-428-gmsi-manager.r-cloud.hycu.com
+Instance: nilo.casimiro@dirac.com
+Module: Microsoft M365 Exchange Online
+Status: Done With Errors
+Policy: m365-exchange (RPO In Minutes: 1440.0)
+Execution Time: 07:44:31.242 (Start Time: April 9, 2026 at 3:30:32 PM GMT+5) (Finish Time: April 9, 2026 at 11:15:03 PM GMT+5)
+Total Items: (Done: ) (Failed: )
+Details:
+Status: DONE_WITH_ERRORS
+Total items: 30534
+Total DONE items by type:
+• folder: 137
+• task: 1
+• attachment: 213
+• contactsRootFolder: 1
+• calendarEvent: 61
+• taskList: 4
+• calendarAttachment: 14
+• message: 21052
+• mailboxSettings: 1
+• user_Mailbox: 1
+Total FAILED items by type:
+• folder: 3
+• attachment: 91
+• message: 8955
+Backup size on source: 977870582
+Backup size on target: 178373554
+Exit Message: Not Applicable
+
+
+
+TaskUuID: 6abad665-aa02-4482-8fa8-9657a55c7d44
+Backup Entity UuID: 035f231b-3a60-413d-8a47-6e347d465e60
+Company: Dirac Research AB (c8d1bf75-ff22-4f71-88d0-e820705d5aa7)
+Host: protege-6cf53779-f518-428-gmsi-manager.r-cloud.hycu.com
+Instance: rickard.asen@dirac.com
+Module: Microsoft M365 Exchange Online
+Status: Done With Errors
+Policy: m365-exchange (RPO In Minutes: 1440.0)
+Execution Time: 08:33:37.99 (Start Time: April 9, 2026 at 4:55:32 PM GMT+5) (Finish Time: April 10, 2026 at 1:29:10 AM GMT+5)
+Total Items: (Done: ) (Failed: )
+Details:
+Status: DONE_WITH_ERRORS
+Total items: 68617
+Total DONE items by type:
+• folder: 26
+• attachment: 328
+• contactsRootFolder: 1
+• calendarEvent: 38
+• taskList: 23
+• calendarAttachment: 7
+• message: 23691
+• mailboxSettings: 1
+• user_Mailbox: 1
+Total FAILED items by type:
+• folder: 3
+• attachment: 359
+• message: 44139
+Backup size on source: 1224771245
+Backup size on target: 512492444
+Exit Message: Not Applicable
