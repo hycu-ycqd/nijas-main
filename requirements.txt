@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ad2a039f4f015b1c70318b0ce9ea3b15884e2b0311f61f2cfacc4c0fc0779b6
-size 67
+requests>=2.31.0
+pyyaml>=6.0.1
+pytest>=7.4.0
+pytest-cov>=4.1.0
